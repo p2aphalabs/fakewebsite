@@ -5,7 +5,7 @@ import joblib,os
 app = FastAPI()
 
 #pkl
-phish_model = open('/Users/alphalabs/Desktop/phd_work/charan/SHIVA/phishing.pkl','rb')
+phish_model = open('/Users/alphalabs/Desktop//phishing.pkl','rb')
 phish_model_ls = joblib.load(phish_model)
 
 # ML Aspect
